@@ -1,0 +1,91 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif; 
+}
+.signup{
+	background-color: #344a72;
+	font-family: sans-serif;
+
+}
+.signup-box{
+	width: 360px;
+	height: 560px;
+	margin: auto;
+	background-color: white;
+	border-radius: 15px;
+}
+.login{              /*login page css code*/
+	width: 360px;
+	height: 270px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: white;
+}
+h1{
+	text-align: center;
+	padding-top: 15px;
+}
+form{
+		width: 300px;
+		margin-left: 20px;
+}
+form label{
+	display: flex;
+	margin-top:20px;
+	font-size: 18px;
+}
+form input{
+	width: 100%;
+	padding: 7px;
+	border:none;
+	border:1px solid gray;
+	border-radius: 6px;
+	outline: none;
+}	
+
+.btn-field{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.btn-field input{
+	flex-basis: 40%;
+	background: #49c1a2;
+	color: #fff;
+	height: 30px;
+	border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	text-align: center;
+	/*transition: background 1s;*/
+}
+/*{
+	width: 300px;
+	height: 35px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	font-size: 18px;
+	position: relative;
+	text-align: center;
+}*/
+p{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 16px;
+}
+.para{
+     text-align: center;
+     color: white;
+     font-size: 15px;
+     margin: -10px;
+     padding-top: 18px;
+ }
+ .para a{
+ 	color: #49c1a2;
+ }

@@ -1,0 +1,38 @@
+body{
+    animation: changeBg 20s infinite
+    alternate linear;
+}
+@keyframes changeBg{
+    0%{
+        background: #ee6055;
+    }
+    25%{
+        background: #60d394;
+    }
+    50%{
+        background: #aaf683;
+    }
+    75%{
+        background: #ffd97d;
+    }
+    100%{
+        background: #ff9b85;
+    }
+}
+.main{
+    width: 350px;
+    height: 600px;
+    background: rgb(209, 164, 246);
+    margin: auto;
+
+}
+.main input{
+    display: flex;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+}
